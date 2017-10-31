@@ -1,7 +1,6 @@
 # Table of Contents
 1. [Introduction](README.md#introduction)
-2. [Approach description](README.md#approach description)
-3. [Repo directory structure](README.md#repo-directory-structure)
+2. [Approach](README.md#approach)
 
 
 
@@ -24,7 +23,7 @@
 * Analogous, for the `by_date` dictionary: key is a tuple(`id`,`date`),value is a list(`MedianFinder`,`num`, `total`). With a same key, `MedianFinder` is used to find the median of a streaming of the amounts, `num` counts the number of the donations with the same id and date. `total` sums all the amounts with the same id and date. Function `add_by_date` can compare the current donor with the exiting the donors stored in the `by_date` dictionary, update the `by_date` dictionary.
 
 
-# Approach Description
+# Approach
 
 The general steps in `find_poslitical_donors.py`:
 
@@ -49,31 +48,3 @@ To analyze donor information from the  line by line by using the `for` loop in :
 5. after scanning the entire file`itcont.txt`, the `by_date` dictionary is sorted by its key, and write the sorted dictionary to the output file `medianvals_by_date.txt`.
 
 To close the output files.
-
-# 
-The directory structure is:
-
-├── README.md 
-├── run.sh
-├── src
-│   └── find_political_donors.py
-│   └── functions_donors.py
-├── input
-│   └── itcont.txt
-├── output
-    └── medianvals_by_zip.txt
-    └── medianvals_by_date.txt
-├── insight_testsuite
-    └── run_tests.sh
-    └── results.txt
-    └── tests
-         └── test_1
-         |   ├── input
-         |   │   └── itcont.txt
-         |   |__ output
-         |   │   └── medianvals_by_zip.txt
-         |   |__ └── medianvals_by_date.txt
-
-
-
-
