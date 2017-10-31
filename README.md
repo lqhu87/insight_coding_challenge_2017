@@ -1,6 +1,6 @@
 # Table of Contents
 1. [Introduction](README.md#introduction)
-2. [Approach description](README.md#general steps)
+2. [Approach description](README.md#approach description)
 3. [Repo directory structure](README.md#repo-directory-structure)
 
 
