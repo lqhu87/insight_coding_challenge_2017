@@ -1,6 +1,6 @@
 # Table of Contents
 1. [Introduction](README.md#introduction)
-2. [General Steps](README.md#general steps)
+2. [Approach description](README.md#general steps)
 3. [Repo directory structure](README.md#repo-directory-structure)
 
 
@@ -61,8 +61,8 @@ The directory structure is:
 ├── input
 │   └── itcont.txt
 ├── output
-|   └── medianvals_by_zip.txt
-|   └── medianvals_by_date.txt
+    └── medianvals_by_zip.txt
+    └── medianvals_by_date.txt
 ├── insight_testsuite
     └── run_tests.sh
     └── results.txt
