@@ -1,1 +1,0 @@
-# insight_coding_challenge_2017
